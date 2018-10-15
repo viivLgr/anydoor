@@ -1,0 +1,21 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "tiny nodejs web server",
+  "main": "index.js",
+  "repository": "git@github.com:viivLgr/anydoor.git",
+  "author": "李果然 <“viiv_lgr@163.com”>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  }
+}
